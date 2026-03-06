@@ -17,8 +17,8 @@ pipeline {
 
         stage('Push Docker Image') {
             steps {
-                sh 'docker tag trend-app shilpaashwanthy/trend-app'
-                sh 'docker push shilpaashwanthy/trend-app'
+                sh 'docker tag trend-app shilpapauline09/trend-app'
+                sh 'docker push shilpapauline09/trend-app'
             }
         }
 
