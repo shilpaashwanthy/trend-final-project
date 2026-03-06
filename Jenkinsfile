@@ -5,7 +5,7 @@ pipeline {
 
   stage('Clone Repo') {
    steps {
-    git 'https://github.com/Vennilavanguvi/Trend.git'
+    git 'https://github.com/shilpaashwanthy/trend-final-project.git'
    }
   }
 
