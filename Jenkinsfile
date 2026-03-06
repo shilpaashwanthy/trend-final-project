@@ -4,8 +4,10 @@ pipeline {
  stages {
 
   stage('Clone Repo') {
-   steps {
-    git 'https://github.com/shilpaashwanthy/trend-final-project.git'
+ steps {
+  git branch: 'main', url: 'https://github.com/shilpaashwanthy/trend-final-project.git'
+ }
+}
    }
   }
 
